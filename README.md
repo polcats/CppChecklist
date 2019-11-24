@@ -34,6 +34,7 @@ A small checklist for a normal day's code review.
 <li>Check variable/parameter initialization</li>
 <li>Check that pointers are initialized</li>
 <li>Check pointers (for nullptr value) before use.</li>
+<li>Create reference variables as necessary</li>
 <li>No hardcoded numbers.</li>
 </ul>
 
