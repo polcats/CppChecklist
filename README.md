@@ -12,7 +12,7 @@ A small checklist for a normal day's code review.
 <li>"" for user-defined type includes</li>
 </ul>
 </li>
-<li>Sorted in alphabetical order</li>
+<li>Check proper order</li>
 </ul>
 
 <h3>Classes</h3>
@@ -41,5 +41,5 @@ A small checklist for a normal day's code review.
 <h3>General Scope</h3>
 <ul>
 <li>Use for(auto& element : elements) for STL containers</li>
-<li>Check if typdefs/using alias is applicable</li>
+<li>Check if typdef/using alias is applicable</li>
 </ul>
