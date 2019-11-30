@@ -19,22 +19,16 @@ A small checklist for a normal day's code review.
 <li>"" for user-defined type includes.</li>
 </ul>
 </li>
-<li>Check proper order.</li>
+<li>Check proper include order.</li>
 </ul>
 
 <h3>Classes</h3>
 <ul>
-<li>Rule of Three (C++): One exists, Create all.
-<ul>
-<li>Destructor</li>
-<li>Copy constructor <b>class_name(const class_name &)</b></li>
-<li>Copy assignment operator <b>operator=(const class_name &)</b></li>
-</ul>
 </li>
-<li>Use initializer list for user defined type for better performance</li>
-<li>Check proper const-ness of functions/parameters/members</li>
-<li>Check access modifiers (eg. move to private if not supposed to be accessed externally)</li>
-<li>Private default constructors for static classes</li>
+<li>Use initializer list for user defined type for better performance.</li>
+<li>Check proper const-ness of functions/parameters/members.</li>
+<li>Check access modifiers (eg. move to private if not supposed to be accessed externally).</li>
+<li>Private default constructors for static classes.</li>
 </ul>
 
 <h3>Variables/Access</h3>
