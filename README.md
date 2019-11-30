@@ -31,18 +31,19 @@ A small checklist for a normal day's code review.
 <li>Private default constructors for static classes.</li>
 </ul>
 
-<h3>Variables/Access</h3>
+<h3>Parameters/Variables/Pointers</h3>
 <ul>
+<li>Check data types of values being passed in function parameters (eg. uint32_t being passed to a uint16_t parameter).</li>
 <li>No hardcoded numbers.</li>
-<li>Create reference variables as necessary (especially to reduce very very long lines when accessing something's member/function/etc).</li>
 <li>Check that variables are initialized.</li>
-<li>Check that pointers are initialized as necessary.</li>
-<li>Check proper use of smart pointers (eg. use unique_ptr instead of shared_ptr if applicable).</li>
+<li>Check that pointers are initialized.</li>
+<li>Check proper use of smart pointers (eg. use unique_ptr instead of shared_ptr in some cases).</li>
 <li>Check pointers (for nullptr value) before use whenever necessary.</li>
 </ul>
 
-<h3>General Scope</h3>
+<h3>General</h3>
 <ul>
 <li>Use for(auto& element : elements) for STL containers if applicable.</li>
 <li>Use typdef/alias as necessary.</li>
+<li>Create reference variables as necessary (especially to reduce repetitive long lines when accessing something's member/function/etc).</li>
 </ul>
