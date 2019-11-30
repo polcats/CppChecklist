@@ -44,7 +44,14 @@ A small checklist for a normal day's code review.
 
 <h3>General</h3>
 <ul>
-<li>Use for(auto& element : elements) for STL containers if applicable.</li>
+<li>Use ranged-based loops as necessary:
+<ul>
+<li>for (auto x : vector) - use copies.</li>
+<li>for (auto& x: vector) - modify/use original items.</li>
+<li>for (auto const& x: vector) - not modify/use original items.</li>
+</ul>
+</li>
+<li>Prefer pre-increment than post-increment.</li>
 <li>Use typdef/alias as necessary.</li>
 <li>Create reference variables as necessary (especially to reduce repetitive long lines when accessing something's member/function/etc).</li>
 </ul>
